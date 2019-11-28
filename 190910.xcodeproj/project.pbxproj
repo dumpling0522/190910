@@ -13,6 +13,7 @@
 		E5987E26232743FA00D88BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5987E25232743FA00D88BAE /* Assets.xcassets */; };
 		E5987E29232743FA00D88BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5987E27232743FA00D88BAE /* LaunchScreen.storyboard */; };
 		E5987E34232743FA00D88BAE /* _90910Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5987E33232743FA00D88BAE /* _90910Tests.swift */; };
+		E5A0B71B2358176200E5C106 /* LeaderboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A0B71A2358176200E5C106 /* LeaderboardController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E5987E2F232743FA00D88BAE /* 190910Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 190910Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5987E33232743FA00D88BAE /* _90910Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _90910Tests.swift; sourceTree = "<group>"; };
 		E5987E35232743FA00D88BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5A0B71A2358176200E5C106 /* LeaderboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				E5987E1E232743F800D88BAE /* AppDelegate.swift */,
 				E5987E20232743F800D88BAE /* ViewController.swift */,
 				E5987E22232743F800D88BAE /* Main.storyboard */,
+				E5A0B71A2358176200E5C106 /* LeaderboardController.swift */,
 				E5987E25232743FA00D88BAE /* Assets.xcassets */,
 				E5987E27232743FA00D88BAE /* LaunchScreen.storyboard */,
 				E5987E2A232743FA00D88BAE /* Info.plist */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5A0B71B2358176200E5C106 /* LeaderboardController.swift in Sources */,
 				E5987E21232743F800D88BAE /* ViewController.swift in Sources */,
 				E5987E1F232743F800D88BAE /* AppDelegate.swift in Sources */,
 			);

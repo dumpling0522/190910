@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1hy-Aq-fKA">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,223 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_90910" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVB-Uy-qlJ">
+                                <rect key="frame" x="46" y="101" width="64" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="螢幕快照 2019-04-04 下午11.51.27"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DOw-0W-coC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pAL-Og-jse">
+                                <rect key="frame" x="268" y="458" width="64" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="螢幕快照 2019-04-04 下午11.51.27"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B6K-k5-caX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vNi-FD-JUL">
+                                <rect key="frame" x="156" y="458" width="64" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="螢幕快照 2019-04-04 下午11.51.27"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KAN-CK-rc6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wrN-a7-XLN">
+                                <rect key="frame" x="268" y="343" width="64" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="螢幕快照 2019-04-04 下午11.51.27"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W9d-DI-GsI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYe-U3-6t8">
+                                <rect key="frame" x="155" y="343" width="64" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="螢幕快照 2019-04-04 下午11.51.27"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cq2-Di-K2i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Woy-sF-XnH">
+                                <rect key="frame" x="268" y="215" width="64" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="螢幕快照 2019-04-04 下午11.51.27"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d5d-A5-Yib"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCa-ec-6KP">
+                                <rect key="frame" x="156" y="215" width="64" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="螢幕快照 2019-04-04 下午11.51.27"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5lj-Fm-Wfc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Typ-UZ-ZYR">
+                                <rect key="frame" x="156" y="101" width="64" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="螢幕快照 2019-04-04 下午11.51.27"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wFE-g8-bJI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vmd-RE-HTt">
+                                <rect key="frame" x="268" y="101" width="64" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="螢幕快照 2019-04-04 下午11.51.27"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pjq-aD-7ID"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOf-Mg-1mI">
+                                <rect key="frame" x="46" y="215" width="64" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="螢幕快照 2019-04-04 下午11.51.27"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yeL-zd-LjC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEc-b2-RZe">
+                                <rect key="frame" x="46" y="343" width="64" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="螢幕快照 2019-04-04 下午11.51.27"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pmf-FE-dvJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYu-zk-7l1">
+                                <rect key="frame" x="46" y="458" width="64" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="螢幕快照 2019-04-04 下午11.51.27"/>
+                                <connections>
+                                    <action selector="flipCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pOZ-qs-0nL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="翻牌次數：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rPE-aL-JnQ">
+                                <rect key="frame" x="121" y="540" width="87" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="deN-6P-pev">
+                                <rect key="frame" x="166" y="583" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="replay"/>
+                                <connections>
+                                    <action selector="replay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Jw-rE-Lz2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sG-rW-Orl">
+                                <rect key="frame" x="202" y="540" width="27" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9sh-vJ-ojI">
+                                <rect key="frame" x="264" y="583" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="leaderboard"/>
+                                <connections>
+                                    <segue destination="Dhu-lw-nTs" kind="show" id="agy-Gl-jiI"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CeC-wr-sf4">
+                                <rect key="frame" x="143" y="67" width="137" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Cuh-SD-OfY"/>
+                    <connections>
+                        <outlet property="moveTimes" destination="7sG-rW-Orl" id="Lpx-Mu-GyH"/>
+                        <outlet property="winLabel" destination="CeC-wr-sf4" id="qV7-Yn-uXF"/>
+                        <outletCollection property="cardButtons" destination="VVB-Uy-qlJ" collectionClass="NSMutableArray" id="xrS-ql-IK3"/>
+                        <outletCollection property="cardButtons" destination="Typ-UZ-ZYR" collectionClass="NSMutableArray" id="3Sh-66-bX7"/>
+                        <outletCollection property="cardButtons" destination="vmd-RE-HTt" collectionClass="NSMutableArray" id="OrG-Gl-N3g"/>
+                        <outletCollection property="cardButtons" destination="KOf-Mg-1mI" collectionClass="NSMutableArray" id="qoV-1u-Sje"/>
+                        <outletCollection property="cardButtons" destination="HCa-ec-6KP" collectionClass="NSMutableArray" id="ghb-Pb-71W"/>
+                        <outletCollection property="cardButtons" destination="Woy-sF-XnH" collectionClass="NSMutableArray" id="9gS-A3-bqA"/>
+                        <outletCollection property="cardButtons" destination="JEc-b2-RZe" collectionClass="NSMutableArray" id="aKo-YN-V0j"/>
+                        <outletCollection property="cardButtons" destination="oYe-U3-6t8" collectionClass="NSMutableArray" id="RVT-tb-3E4"/>
+                        <outletCollection property="cardButtons" destination="wrN-a7-XLN" collectionClass="NSMutableArray" id="odJ-Hj-xH8"/>
+                        <outletCollection property="cardButtons" destination="IYu-zk-7l1" collectionClass="NSMutableArray" id="LA8-xr-yzs"/>
+                        <outletCollection property="cardButtons" destination="vNi-FD-JUL" collectionClass="NSMutableArray" id="gqM-Jk-myc"/>
+                        <outletCollection property="cardButtons" destination="pAL-Og-jse" collectionClass="NSMutableArray" id="pvd-9n-aJm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1076" y="86.806596701649184"/>
+        </scene>
+        <!--Leaderboard Controller-->
+        <scene sceneID="7LN-92-pJ8">
+            <objects>
+                <viewController id="Dhu-lw-nTs" customClass="LeaderboardController" customModule="_90910" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cba-8E-T2u">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kgl-k6-44V">
+                                <rect key="frame" x="36" y="168" width="302" height="330"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Leaderboard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gZ-ZI-kv7">
+                                <rect key="frame" x="42" y="79" width="290" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="EJO-HQ-FkP"/>
+                    </view>
+                    <connections>
+                        <outlet property="leaderboard" destination="Kgl-k6-44V" id="b3E-ZV-dqu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TNo-JS-HhK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1832.8" y="86.806596701649184"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="XMB-nO-k79">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1hy-Aq-fKA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lo8-MW-uJy">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="T39-iz-xcP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4RU-BE-6Ge" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="86.806596701649184"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="螢幕快照 2019-04-04 下午11.51.27" width="64" height="68"/>
+    </resources>
 </document>
